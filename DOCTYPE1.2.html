@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Login</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-box {
+            background-color: white;
+            padding: 30px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .login {
+            background-color: green;
+        }
+
+        .clear {
+            background-color: red;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-box">
+
+        <h2>Student Login</h2>
+
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter Your Name" required>
+
+            <label>Username:</label>
+            <input type="text" placeholder="Enter Username" required>
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter Password" required>
+
+            <button type="submit" class="login">Login</button>
+            <button type="reset" class="clear">Clear</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
